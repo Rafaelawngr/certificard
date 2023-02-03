@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist&display=swap");
+
+body {
+  background: #d1b9b9;
+  font-family: "Urbanist", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 8px 16px rgba(14, 29, 47, 0.2);
+  padding: 56px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h4 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: #e4cbcb;
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 5px 9px 12px rgba(141, 141, 141, 0.2);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  text-align: center;
+  list-style: none;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+  padding-top: 24px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: #3c4042;
+}
+
+.dark .container {
+  background: #202124;
+  color: #ea80fc;
+}
+
+.dark .projetos {
+  background: #3e0747;
+  box-shadow: 5px 9px 12px rgba(20, 20, 20, 0.2);
+  color: #f7f7f7;
+}
+
+.dark .projetos-item a {
+  color: #f7f7f7;
+}
+
+.dark .tema button {
+  background: #242424;
+  color: #f0f0f0;
+  border: 2px solid #f7f7f7;
+}
